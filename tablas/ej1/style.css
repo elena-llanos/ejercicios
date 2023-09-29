@@ -1,0 +1,14 @@
+   td {
+
+    border: 1px solid rgb(57, 33, 192);
+   
+}
+
+table  {
+    border: 1px solid brown;
+   /* border-collapse: collapse;*/
+   width:   10pc;
+   height: 10pc;
+   text-align: center;
+   
+}

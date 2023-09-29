@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cuarto Ejercicio - Ejemplo de lista anidada</title>
+</head>
+
+<body>
+    <h1>Listas anidadas, tanto <a href="../ejericio_lista_ordenada/index2.html">ordenadas</a> como desordenadas:</a>
+    </h1>
+    <p>Vamos a crear una lista desordenada y dentro de la misma vamos a anidar una lista ordenada.</p>
+    <p>Este listado es el listado del temario de un curso.</p>
+
+    <ul >
+       
+
+            <li class="sortable">HTML
+
+
+                <ol>
+                    <li>Internet como canal de venta</li>
+                    <li>Fundamentos de HTML</li>
+                    <li>Estructura de las páginas</li>
+                    <li>Etiquetas de texto</li>
+                    <li>Las imágenes</li>
+                    <li>Los enlaces</li>
+                    <li>Audio y vídeo</li>
+                    <li>Las tablas</li>
+
+                </ol>
+            </li>
+        
+
+        <li class="sortable">CSS
+
+            <ol>
+                <li>Fundamentos de CSS</li>
+                <li>Selectores</li>
+                <li>Propiedades</li>
+                <li>Pseudoclases</li>
+                <li>Pseudoelementos</li>
+
+
+            </ol>
+        </li>
+
+
+    </ul>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+    <script>
+        $( function() {
+          $( ".sortable" ).sortable();
+        } );
+        </script>
+</body>
+
+
+
+</html>

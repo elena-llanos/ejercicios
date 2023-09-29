@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myStyle.css">
+    <title>Ejercicio de tablas</title>
+</head>
+
+<body>
+    <h1>Ejercicio de tablas</h1>
+    <h2>Tabla básica sin cabecera - Colores</h2>
+    <table>
+
+
+        <tr>
+            <td>Azul</td>
+            <td>Rojo</td>
+            <td>Blanco</td>
+            <td>Teal</td>
+        </tr>
+        <tr>
+            <td>Verde</td>
+            <td>Púrpura</td>
+            <td>Negro</td>
+            <td>Oro</td>
+        </tr>
+        <tr>
+            <td>Naranja</td>
+            <td>Rosa</td>
+            <td>Marrón</td>
+            <td>Crimson</td>
+        </tr>
+        <tr>
+            <td>Amarillo</td>
+            <td>Violeta</td>
+            <td>Gris</td>
+            <td>Fucsia</td>
+        </tr>
+    </table>
+
+    <h2>Tabla básica con cabecera - Colores primarios y secundarios</h2>
+
+    <table id="tablaConHead">
+        <thead>
+            <tr>
+                <th>Primarios</th>
+                <th>Secundarios</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td id="azul">Azul</td>
+            <td id="verde">Verde</td>
+
+        </tr>
+        <tr>
+            <td id="rojo">Rojo</td>
+            <td id="lila">Lila</td>
+
+        </tr>
+        <tr>
+            <td id="amarillo">Amarillo</td>
+            <td id="naranja">Naranja</td>
+
+        </tr>
+
+    </table>
+    <a id="enlace" href="#" onclick="change(); return false;">Cambia el color</a>
+    <a id="enlace" href="#" onclick="reset(); return false;">Reset</a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

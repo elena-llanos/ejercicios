@@ -1,0 +1,90 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(250, 245, 245);
+}
+
+img {
+    border: 1px;
+    border-radius: 75px;
+}
+
+nav {
+    background-color: rgb(3, 196, 196);
+
+}
+
+
+/*Si ponemos > localiza el elemento que le indiquemos, en este caso el ul*/
+/*Si no lo ponemos cogería el nav y el ul*/
+nav>ul {
+    display: flex;
+    justify-content: flex-end;
+    
+
+
+
+}
+
+/*Esta regla afecta a todos los listados que estén dentro de nav*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul a {
+    background-color: rgb(3, 196, 196);
+    padding: 10px 15px;
+    width: 100%;
+}
+
+/*Con esto quiero que se oculte el ul que este en otro li  que esté en otro ul*/
+nav>ul>li>ul {
+    display: none;
+    /*Para que esto pueda tener position absolute, el padre tiene que tener position; relative*/
+    /*De esta manera ocupará esa posición dentro de su elemento padre*/
+    position: absolute;
+    /*top:0;
+    este elemento se pone en la pantalla en la esquina superior izquierda
+    left:0;*/
+    width: 100%;
+    top: 100%;
+
+
+
+}
+
+/*Esto lo ponemos para que funcione la position absolute de la regla anterior*/
+nav>ul>li {
+    position: relative;
+}
+
+/*Mostramos al hacer hover*/
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+
+header > nav > ul > li >  a{
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+header > nav > ul > li > ul > li > a{
+    color: white;
+    display: block;
+    font-size: .75rem;
+    letter-spacing: 1.5px;
+    padding: .25rem 1.5rem;
+    text-decoration: none;
+    
+}
+
+
+header > nav > ul{
+    padding: 1rem 1.5rem;
+}
+
+a:active {
+    background-color: rgb(2, 100, 100);
+}

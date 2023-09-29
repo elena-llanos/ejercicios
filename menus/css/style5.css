@@ -1,0 +1,87 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(250, 245, 245);
+
+}
+
+header {
+    background-color: black;
+    max-width: 25%;
+    height: 100%;
+   
+}
+
+img {
+    border: 1px;
+    border-radius: 90%;
+    padding: 8px;
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+nav>ul>li {
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    border-top: 1px dotted white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav>ul>li {
+    position: relative;
+}
+
+nav>ul>li>ul {
+    display: none;
+    /*Para que esto pueda tener position absolute, el padre tiene que tener position; relative*/
+    /*De esta manera ocupará esa posición dentro de su elemento padre*/
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 100%;
+
+
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+header>nav>ul>li>a {
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: white;
+
+}
+
+header nav ul li ul li a {
+    color: white;
+    display: block;
+    font-size: .75rem;
+    letter-spacing: 1.5px;
+    padding: .25rem 1.5rem;
+    text-decoration: none;
+    background-color: rgb(3, 196, 196);
+
+}

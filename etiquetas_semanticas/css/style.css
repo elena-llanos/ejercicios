@@ -1,0 +1,168 @@
+/**/
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Por efecto podemos dar 0 todos los márgenes y paddings
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 1px;    
+
+}*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(236, 185, 185);
+    display: flex;
+}
+
+nav {
+
+    width: 100%;
+}
+
+header nav {
+    background-color: darkgray;
+
+}
+
+.bgmedio {
+
+    background-color: darksalmon;
+
+}
+
+.tercio {
+    width: 33%;
+
+
+}
+
+.dos-tercios {
+    width: 66%;
+}
+
+
+.medio {
+    width: 50%;
+
+}
+
+
+.square {
+    border: 1px solid rgb(238, 69, 167);
+    width: 100%;
+    height: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+    justify-content: flex-end;
+    /*Para alinear en la horizonal*/
+    align-items: center;
+    /*Para alinear en la vertical*/
+    padding-left: 0;
+    /*Anulamos el padding por defecto */
+    column-gap: 10px;
+    /*Mejor usar esto que no margin*/
+    height: 100%;
+    margin: 0;
+
+}
+
+.redes ul {
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+
+
+}
+
+footer {
+    background-color: rgba(169, 169, 169);
+}
+
+footer ul {
+    justify-content: center;
+}
+
+header li a {
+    background-color: aliceblue;
+    border: 1px solid rgb(243, 240, 240);
+    border-radius: 10px;
+    max-width: 20px;
+    padding: 5px 10px;
+    color: #3a2f2f;
+}
+
+header a:hover {
+    background: rgb(240, 138, 138);
+}
+
+header a:active {
+    background-color: rgb(230, 23, 23);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+article,
+.delimitado {
+    background-color: rgb(241, 213, 213);
+    border: 2px solid rgb(240, 138, 138);
+    border-radius: 10px;
+    padding: 0px 25px 25px 25px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.bgclaro {
+    background-color: #c5c4c4;
+}
+
+.ancho {
+    width: 90%;
+    max-width: 1240px;
+    margin: 50px auto;
+}
+
+.flexible {
+    display: flex;
+    width: 96%;
+    max-width: 1400px;
+    margin: 50px auto;
+    column-gap: 20px;
+}
+
+footer ul li a {
+    color: crimson;
+}
+
+#servicios {
+    text-align: left;
+   
+    font-size: 2rem;
+}
+
+.validation {
+    display: flex;
+}
+
+.servicio ul {
+    justify-content: center;
+}

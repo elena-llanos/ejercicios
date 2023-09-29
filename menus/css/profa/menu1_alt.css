@@ -1,0 +1,44 @@
+#logo {
+    background-color: #ebebeb;
+    ;
+}
+nav {
+    background-color: cadetblue;
+}
+nav>ul {
+    /*estas propiedades afectan SOLO al menú principal*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    /*Estas propiedades afectan a todos los listados que estén dentro de una etiqueta nav*/
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+nav ul a {
+    background-color: cadetblue;
+    padding: 10px 15px;
+}
+nav > ul > li {
+    position: relative;
+    display: flex;
+}
+nav > ul > li > ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 38px;
+}
+nav > ul > li:hover > ul {
+    display: block;
+}
+nav > ul > li > ul > li {
+    display: flex;
+}
+nav > ul > li > ul , 
+nav > ul > li > ul > li , 
+nav > ul > li > ul > li a {
+    width: 100%;
+}

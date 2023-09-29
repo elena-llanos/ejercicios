@@ -1,0 +1,103 @@
+/*CSS que organizan la estructura del documento HTML*/
+header {
+    display: block;
+    position: fixed;
+    /*para que cuando haya más contenido y hagamos scroll por la pantalla, la cabecera se nos quede fija en la parte superior de la pantalla*/
+    width: 100%;
+    z-index: 1000;
+    /*Para que la cabecera suiempre quede por encima del contenido*/
+}
+
+header>nav>ul {
+    display: flex;
+    flex-direction: row;
+    /*esta propiedad podríamos ignorarla ya que es la que toma el navegador por defecto*/
+    justify-content: flex-end;
+    align-items: center;
+    height: 75px;
+}
+
+header>nav>ul>li {
+    position: relative;
+}
+
+header>nav>ul>li>ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+header>nav>ul>li:hover>ul {
+    display: block;
+}
+
+header nav ul {
+    list-style-type: none;
+    /*Elimina la decoración de todos los listados*/
+    margin: 0;
+    /*Elimina los márgenes que añade por defecto el navegador a los <ul>*/
+    padding: 0;
+    /*Elimina los paddings que añade por defecto el navegador a los <ul>*/
+}
+
+header li {
+    margin: 0;
+    padding: 0;
+}
+
+header>nav>ul>li>a {
+    padding: 1rem 1.5rem;
+}
+
+/*Hasta aquí CSS que organizan la estructura del documento HTML*/
+/*CSS que aplican diseño a nivel más estético al documento HTML*/
+body {
+    background: #ffffff;
+    color: #222;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.20px;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.6rem;
+    min-height: 100%;
+}
+header {
+    background: #f2f2f2;
+}
+nav {
+    background-color: rgba(62, 188, 207, 0.96);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+}
+div#logo img {
+    border-radius: 150px;
+}
+header > nav > ul > li:hover {
+    background: rgba(58, 162, 173, 1);
+}
+header > nav > ul > li > ul {
+    background-color: rgba(62, 188, 207, 0.96);
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, .05);
+    font-size: 1rem;
+}
+header > nav > ul > li > ul > li > a {
+    color: rgba(255, 255, 255, .9);
+    display: block;
+    font-size: .75rem;
+    letter-spacing: 1.5px;
+    padding: .25rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header > nav > ul > li > ul > li:hover > a {
+    background-color: rgba(0, 0, 0, .15);
+}
+header>nav>ul>li>a {
+    color: #fff;
+    font-size: 1.55rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+} 

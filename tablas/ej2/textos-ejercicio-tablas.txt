@@ -1,0 +1,66 @@
+TITULO DEL EJERCICIO:
+Ejercicio de tablas
+
+
+ENCABEZADO PRINCIPAL:
+Ejercicio de tablas
+
+
+ENCABEZADO SECUNDARIO:
+Tabla básica sin cabecera - Colores
+
+
+ELEMENTOS DE LA TABLA:
+Azul
+
+Rojo
+
+Blanco
+
+teal
+
+Verde
+
+Púrpura
+
+Negro
+
+Oro
+
+Naranja
+
+Rosa
+
+Marrón
+
+Crimson
+
+Amarillo
+
+Violeta
+
+Gris
+
+Fucsia
+
+
+ENCABEZADO SECUNDARIO:
+Tabla básica con cabecera - Colores primarios y secundarios
+
+ELEMENTOS DE LA TABLA - CABECERA:
+Primarios
+
+Secundarios
+
+ELEMENTOS DE LA TABLA:
+Azul
+
+Verde
+
+Rojo
+
+Lila
+
+Amarillo
+
+Naranja
