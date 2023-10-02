@@ -13,6 +13,7 @@ img {
 #logo {
     display: flex;
     justify-content: center;
+    
     padding-bottom: 0.5%;
 }
 

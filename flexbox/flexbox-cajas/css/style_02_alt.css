@@ -1,0 +1,63 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+main {
+    padding: 10px;
+    background-color: azure;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100% - 20px);
+}
+p {
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.row:nth-child(1) > div {
+    background-color: rgb(251, 99, 44);
+    padding: 10px;
+}
+.row:nth-child(2) > div:nth-child(1) {
+    background-color: rgb(243, 181, 9);
+    padding: 10px;
+}
+.row:nth-child(2) > div > div {
+    background-color: rgb(147, 14, 48);
+    padding: 10px;
+    height: 100%;
+}
+.row:nth-child(3) > div {
+    background-color: rgb(12, 159, 172);
+    padding: 10px;
+}
+/* .box-100 {
+    width: 100%;
+} */
+.box-66 {
+    width: 66%;
+}
+.box-33 {
+    width: 33%;
+}
+.box-55 {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.box-45 {
+    width: 45%;
+}
+.box-50 {
+    width: 50%;
+}
+.box-25 {
+    width: 25%;
+}

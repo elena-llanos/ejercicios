@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.row {
+ width: 100%;
+ height: 33%;
+ display: flex;
+ flex-direction: row;
+ column-gap: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    row-gap:20px;
+}
+.naranja {
+    background-color:  rgb(251, 99, 44);
+}
+.rojo {
+    background-color: rgb(147, 14, 48);
+    height: 50%;
+}
+.amarillo {
+    background-color: rgb(243, 181, 9);
+}
+.azul {
+    background-color: rgb(12, 159, 172);
+}
+.dos-tercios {
+    width: 66%;
+    height: 100%;
+}
+.tercio {
+    width: 33%;
+    height: 100%;
+}
+.medio {
+    width: 50%;
+    height: 100%;
+}
+.cuarto {
+    width: 25%;
+    height: 100%;
+}

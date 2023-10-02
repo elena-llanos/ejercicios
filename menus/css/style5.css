@@ -1,9 +1,14 @@
-body {
+html , body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(250, 245, 245);
+    margin: 0;
+    padding: 0;
+    height: 100%;
 
 }
-
+main{
+    height: 100%;
+}
 header {
     background-color: black;
     max-width: 25%;

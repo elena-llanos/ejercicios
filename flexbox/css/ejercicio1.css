@@ -1,0 +1,77 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+
+}
+
+/*colores*/
+p {
+    color: aliceblue;
+    padding: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.naranja {
+    background-color: rgb(251, 99, 44);
+
+}
+
+.amarillo {
+    background-color: rgb(243, 181, 9);
+
+}
+
+.rojo {
+    background-color: rgb(147, 14, 48);
+    height: 50%;
+}
+
+.azul {
+    background-color: rgb(12, 159, 172);
+}
+
+/*medidas*/
+.dos-tercios {
+    width: 66%;
+    height: 100%;
+}
+
+.tercio {
+    width: 33%;
+    height: 100%;
+}
+
+.medio {
+    width: 50%;
+    height: 100%;
+}
+
+.cuarto {
+    width: 25%;
+    height: 100%;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}

@@ -42,3 +42,8 @@ section > div > div {
     /*Con esta propiedad se ponen los items en varias filas*/
     gap: 20px;
 }
+.start-center{
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+}
