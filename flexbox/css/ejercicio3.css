@@ -1,0 +1,44 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    row-gap: 15px;
+}
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+.mitad{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px   ;
+}
+.morado{
+    background-color: blueviolet;
+}
+.naranja{
+    background-color: orange;
+    height: 90%;
+}
+.rojo  {
+    background-color: rgb(238, 75, 75);
+    height: 10%;
+}
+.azul{
+    background-color: aquamarine;
+}
