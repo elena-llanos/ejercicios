@@ -3,12 +3,13 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: rgb(141, 9, 141);
 }
 
 main{
     height: 100%;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -33,11 +34,11 @@ main{
 }
 .naranja{
     background-color: orange;
-    height: 90%;
+    height: 80%;
 }
 .rojo  {
     background-color: rgb(238, 75, 75);
-    height: 10%;
+    height: 20%;
 }
 .azul{
     background-color: aquamarine;
