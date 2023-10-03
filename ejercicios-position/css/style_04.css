@@ -1,0 +1,63 @@
+html, body {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+header {
+    background-color: blanchedalmond;
+    position: fixed;
+    border: 10px solid #000;
+    width: 100%;
+    padding: 0 0 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+   
+}
+#top {
+    background-color: aliceblue;
+}
+nav > ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+    column-gap: 10px;
+}
+nav ul li a {
+    display: inline-block;
+    margin: 5px 0px;
+}
+#parte1 , #parte2 , #parte3 { /*para que cuando hago click en parte 3 (o 2 o 1) no se vaya hasta el principio de la página- y así se vea bajo el header*/
+    display: block;
+    padding-top: 350px; /*Ponemos este valor ya que la cabecera tiene una altura de 280 y además está separada del top 50 px*/
+    margin-top: -350px;/*Ponemos este valor ya que la cabecera tiene una altura de 280 y además está separada del top 50 px*/
+}
+#top nav ul {
+    justify-content: flex-end;
+}
+nav ul li a {
+    padding: 5px 10px;
+    background-color: aquamarine;
+}
+main {
+    background-color: rgb(181, 241, 243);
+    padding: 350px 50px;
+}
+footer {
+    background-color: darkgray;
+    padding: 50px 0;
+}
+p {
+    font-size: 1rem;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}

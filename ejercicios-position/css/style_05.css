@@ -1,0 +1,54 @@
+html,
+body {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: blanchedalmond;
+    position: relative;
+    border: 10px solid #000;
+    width: 100%;
+    padding: 50px 0px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+main {
+    background-color: rgb(181, 241, 243);
+    padding: 100px 50px;
+}
+footer {
+    background-color: darkgray;
+    padding: 50px 0;
+}
+p {
+    font-size: 1rem;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+.absolute1 {
+    position: absolute;
+    background-color: rgb(247, 154, 154);
+    width: 50%;
+    left: 10%;
+    z-index: 2;
+}
+
+.absolute2 {
+    position: absolute;
+    background-color: rgb(169, 169, 169);
+    width: 50%;
+    left: 20%;
+    top: 20%;
+}
