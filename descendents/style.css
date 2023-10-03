@@ -39,6 +39,7 @@ section > div > div:nth-child(2) > p {
 
 section> div >div:nth-child(1):hover{
     background-color: beige;
+    cursor:pointer;
 }
 section> div >div:nth-child(1):hover > p{
     color: rgb(44, 42, 42);
