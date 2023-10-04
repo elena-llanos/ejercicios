@@ -19,10 +19,6 @@ nav {
 nav>ul {
     display: flex;
     justify-content: flex-end;
-    
-
-
-
 }
 
 /*Esta regla afecta a todos los listados que estén dentro de nav*/
@@ -36,6 +32,7 @@ nav ul a {
     background-color: rgb(3, 196, 196);
     padding: 10px 15px;
     width: 100%;
+    
 }
 
 /*Con esto quiero que se oculte el ul que este en otro li  que esté en otro ul*/
@@ -53,6 +50,7 @@ nav>ul>li>ul {
 
 
 }
+
 
 /*Esto lo ponemos para que funcione la position absolute de la regla anterior*/
 nav>ul>li {
