@@ -1,6 +1,6 @@
 /**/
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -153,9 +153,10 @@ footer ul li a {
     color: crimson;
 }
 
+
 #servicios {
     text-align: left;
-   
+
     font-size: 2rem;
 }
 
@@ -165,4 +166,76 @@ footer ul li a {
 
 .servicio ul {
     justify-content: center;
+}
+.hamburguesa{
+    display: none;
+}
+
+/*------------MEDIA QUERIES-------------------*/
+
+@media screen and (max-width:1240px) {
+
+    .flexible {
+        width: 90%;
+        max-width: 1240px;
+    }
+
+    .tercio {
+        width: 40%;
+    }
+
+    .dos-tercios {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width:980px) {
+
+    .tercio,
+    .dos-tercios {
+        width: 100%;
+        box-sizing: border-box;
+        /*en la medida desktop no hacía falta ponerlo porque en row no omporta tanto*/
+        /*pero ahora en column, si no se desborda*/
+    }
+
+    .flexible {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    section #servicio2 {
+        flex-direction: column-reverse;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    /*menú hamburguesa*/
+    .hamburguesa{
+        display: block;
+    }
+    header nav ul {
+        flex-direction: column;
+        width: 59%;
+        align-items: flex-end;
+        margin: 0 0 0 auto;
+        display: none;
+    }
+    
+
+
+}
+
+@media screen and (max-width:360px) {
+    .tercio {
+        display: none;
+    }
+
+    /* header div{
+        display: none;
+    } */
 }
